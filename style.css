@@ -22,6 +22,10 @@ body {
     color: white;
 }
 
+.color-blue {
+    color: #0084FD;
+}
+
 .j-center {
     display: flex;
     justify-content: center;
@@ -56,3 +60,11 @@ body {
 .head-btn-none {
     display: none;
 }
+
+/*--Main Section--*/
+/*--Infos Cards--*/
+
+.demo-card img {
+    width: 50%;
+}
+
