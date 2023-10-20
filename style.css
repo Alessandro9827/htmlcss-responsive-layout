@@ -5,3 +5,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    max-width: 480px;
+}
+
+.bc-blue {
+    background-color: #0084FD;
+}
+
+.bc-lg-blue {
+    background-color: #B5DDFF;
+}
+
+.color-white {
+    color: white;
+}
+
+.j-center {
+    display: flex;
+    justify-content: center;
+}
+
+.j-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 90%;
+}
+
+/*Header Section*/
+
+.head-logo img {
+    padding: 1rem 0;
+}
+
+.head-menu i{
+    padding: 2rem 0;
+}
+
+/*
+.bars-none {
+    display: none;
+}
+*/
+
+.list-none,
+.head-btn-none {
+    display: none;
+}
