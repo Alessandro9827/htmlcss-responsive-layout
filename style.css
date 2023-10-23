@@ -387,3 +387,57 @@ body {
     border-radius: 30px;
     letter-spacing: .3rem;
 }
+
+/*------About Us------*/
+
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ab-text h1 {
+    font-size: 3rem;
+    margin: 3.5rem 0 2rem;
+}
+
+.ab-text p {
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.ab-speech-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 1.5rem;
+}
+
+.profile-photo-speech {
+    background-image: url(./img/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ab-speech p {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.fa-quote-left {
+    scale: 4;
+    padding-left: 3.5rem;
+}
+
+.find-me {
+    margin: 1rem 0 3rem;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    color: white;
+}
+
+.fa-linkedin {
+    padding-right: 0.5rem;
+}
