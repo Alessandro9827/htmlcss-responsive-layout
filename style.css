@@ -346,4 +346,44 @@ body {
 
 /*------Section Benefit Work------*/
 
+.benefit-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.container-benefit-card {
+    margin-bottom: 2rem;
+}
+
+.benefit-card {
+    margin: 1.5rem 0;
+}
+
+.benefit-section > h1 {
+    margin: 3rem 3rem 2rem 3rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.benefit-card h1 {
+    font-size: 3.5rem;
+    padding: 1.5rem 2rem;
+}
+
+.benefit-card h2 {
+    padding: 0 2rem;
+}
+
+.benefit-card p {
+    padding: 1rem 2rem;
+    line-height: 1.7rem;
+    color: #8D8D8D;
+}
+
+.benefit-card button {
+    margin: 0.5rem 0 1.5rem 2rem;
+    padding: 0.6rem 3rem;
+    border-radius: 30px;
+    letter-spacing: .3rem;
+}
