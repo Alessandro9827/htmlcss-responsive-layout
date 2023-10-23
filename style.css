@@ -7,7 +7,6 @@
 }
 
 body {
-    max-width: 480px;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -105,10 +104,7 @@ body {
     margin: 1rem 0;
 }
 
-.j-center-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.infos-cards-section {
     margin: 0 auto;
 }
 
@@ -446,6 +442,7 @@ body {
     padding-right: 0.5rem;
 }
 
+/*Footer*/
 /*------Get Started Section------*/
 
 .started-p {
@@ -505,4 +502,163 @@ body {
 
 .footer {
     padding-bottom: 3rem;
+}
+
+/*------Media Query------*/
+
+@media screen and (max-width: 768px) {
+    .infos-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .demo-card {
+        margin: 1rem .5rem;
+        width: calc(((100% / 3) * 2) - 1rem);
+    }
+    .clean-code-card {
+        margin: 1rem .5rem;
+        width: calc((100% / 3) - 1rem);
+    } 
+    .web-design-card {
+        margin: 1rem .5rem;
+        width: calc((100% / 3) - 1rem);
+    }
+    .developement-card {
+        margin: 1rem .5rem;
+        width: calc((100% / 3) - 1rem);
+    }
+    .brending-card {
+        margin: 1rem .5rem;
+        width: calc((100% / 3) - 1rem);
+    }
+
+    .testimonial-banner {
+        display: flex;
+        flex-direction: row;
+    }
+    .banner-text {
+        width: 70%;
+    }
+    /*------------*/
+    .centered {
+        text-align: center;
+    }
+    .benefit-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .container-benefit-card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .divided {
+        margin: 1rem .5rem;
+        width: calc((100% / 2) - 1rem);
+    }
+    /*---------*/
+    .flexed {
+        display: flex;
+    }
+    .ab-speech {
+        margin: 3rem 2rem;
+    }
+    .ab-speech p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1160px) {
+    .container {
+        width: 60%;
+    }
+
+    .bars-none {
+        display: none;
+    }
+
+    .list-none {
+        display: flex;
+    }
+
+    .head-btn-none {
+        display: flex;
+    }
+    .head-btn {
+        border-radius: 30px;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+    }
+
+    .infos-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .demo-card {
+        margin: 1rem .5rem;
+        width: calc(((100% / 3) * 2) - 1rem);
+    }
+    .clean-code-card {
+        margin: 1rem .5rem;
+        width: calc((100% / 3) - 1rem);
+    } 
+    .web-design-card {
+        margin: 1rem .5rem;
+        width: calc((100% / 3) - 1rem);
+    }
+    .developement-card {
+        margin: 1rem .5rem;
+        width: calc((100% / 3) - 1rem);
+    }
+    .brending-card {
+        margin: 1rem .5rem;
+        width: calc((100% / 3) - 1rem);
+    }
+
+    .testimonial-banner {
+        display: flex;
+        flex-direction: row;
+    }
+    .banner-text {
+        width: 70%;
+    }
+    /*------------*/
+
+    .flex-card {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*-------------*/
+    .centered {
+        text-align: center;
+    }
+    .benefit-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .container-benefit-card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .divided {
+        margin: 1rem .5rem;
+        width: calc((100% / 2) - 1rem);
+    }
+    /*---------*/
+    .flexed {
+        display: flex;
+    }
+    .ab-speech {
+        margin: 3rem 2rem;
+    }
+    .ab-speech p {
+        font-size: 1.5rem;
+    }
 }
